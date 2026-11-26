@@ -39,3 +39,28 @@ a{color:#0b6b3a}
 .formulario button{align-self:flex-start;background:var(--verde);color:#fff;border:0;border-radius:8px;padding:10px 16px;font:inherit;cursor:pointer}
 .formulario button:disabled{opacity:.6;cursor:not-allowed}
 .hp{position:absolute;left:-9999px;height:0;overflow:hidden}
+
+/* v2: portal */
+.b.mt{background:#16a34a;border:1px solid #fff}.b.mc{background:#7c3aed;border:1px solid #fff}.b.verm{background:#dc2626}
+.heroi{background:linear-gradient(135deg,#14532d,#166534 60%,#1f7a46);color:#fff;border-radius:14px;padding:22px 20px;margin-bottom:16px}
+.heroi h2{margin:0 0 8px;font-size:1.5rem;line-height:1.25}.heroi p{margin:0 0 14px;max-width:760px}
+.cta{display:flex;flex-wrap:wrap;gap:10px;margin:10px 0}
+.botao{display:inline-block;background:var(--ouro);color:#1b1f1c;text-decoration:none;font-weight:700;border:0;border-radius:10px;padding:11px 18px;font:inherit;font-weight:700;cursor:pointer}
+.botao.sec{background:transparent;color:inherit;border:2px solid currentColor}
+.botao.sec{color:#fff}
+.aba:not(#aba-inicio) .botao.sec{color:var(--verde)}
+.botao.desativado{background:#d9ded9;color:#6b746d;cursor:not-allowed;pointer-events:auto}
+.tit-sec{margin:14px 0 8px;color:var(--verde)}
+.tres{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin:14px 0}
+.caixa{background:#fff;border:1px solid var(--bd);border-radius:12px;padding:6px 16px 10px}
+.caixa h3{margin:.7em 0 .3em;color:var(--verde)}
+.caixa.zap{border-left:6px solid #25d366;max-width:620px}
+fieldset.redes{border:1px solid var(--bd);border-radius:8px;display:flex;gap:14px;align-items:center;padding:4px 10px;margin:0;background:#fff}
+fieldset.redes legend{font-size:.75rem;color:var(--mut);padding:0 4px}
+label.chk{flex-direction:row!important;align-items:center;gap:4px!important;font-size:.9rem!important;color:var(--tx)!important}
+#mapa-lac{height:62vh;min-height:340px;border:1px solid var(--bd);border-radius:10px;margin:8px 0}
+.ficha{background:#fff;border:2px solid var(--verde);border-radius:12px;padding:6px 16px 12px;margin:10px 0}
+.ficha h3{margin:.5em 0}.ficha ul{margin:6px 0;padding-left:18px;font-size:.9rem}
+.tabela-wrap{margin:6px 0 10px}
+@media(max-width:600px){.heroi h2{font-size:1.25rem}.abas button{padding:11px 12px;font-size:.9rem}}
+label.chk input{width:auto;padding:0;margin:0}
